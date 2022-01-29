@@ -11,7 +11,7 @@ router.get("/trevor", (req, res) => {
 });
 
 router.get("/joe", (req, res) => {
-  res.send(`this is joe's page`);
+  res.send(`this is joe's main page`);
   console.log("hit route for mr ce joe joe");
 });
 
