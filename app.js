@@ -1,14 +1,18 @@
-import { createServer } from "http";
+import express from "express";
+import router from "./routes/index.js";
 
-const hostname = "127.0.0.1";
-const port = 3000;
+const app = express();
+const port = process.env.PORT || 3000;
 
-const server = createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "text/html");
-  res.end("<h1>This is reallvvy damn easy!</h1>");
+// these are our main routes
+app.use("/", router);
+
+// use this route for anything that doesn't match
+app.use(function (req, res) {
+  // route doesn't match, probably a 404 or something
+  console.log("page does not exist");
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+  console.log(`App running at rrr port: ${port}/`);
 });
