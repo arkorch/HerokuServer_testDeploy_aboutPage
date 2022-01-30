@@ -5,9 +5,9 @@ This is the team page of Arko Roychowdhury, Kanak Kumar, Madhur Kakkar.
 You are able to see our bio in this team page
 
 # Contributors:
-*KANAK KUMAR
-*MADHUR KAKKAR
-*ARKO ROYCHOWDHURY
+# *KANAK KUMAR
+# *MADHUR KAKKAR
+# *ARKO ROYCHOWDHURY
 
 
 
