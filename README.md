@@ -1,9 +1,3 @@
-# NGO TEAM PAGE
-Assignment for Multimedia Authoring 4
-
-This is the team page of Arko Roychowdhury, Kanak Kumar, Madhur Kakkar.
-You are able to see our bio in this team page
-
 # LINK TO HEROKU SERVER
 https://armkkkherokuapp.herokuapp.com/
 
@@ -11,7 +5,7 @@ https://armkkkherokuapp.herokuapp.com/
 
 # License
 Copyright 2021 
-Arko Roychawdhury, Kanak kumar, Madhur Kakkar
+Arko Roychawdhury
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
